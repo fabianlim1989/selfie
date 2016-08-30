@@ -8,8 +8,9 @@ Snapshotting Support:
 1. EC2 Instances and associated EBS Volumes
 
 ##Requirements##
-1. Must have dependencies installed
+1. Must have gem dependencies installed
   * gem install aws-sdk
+  * gem install assumer [https://github.com/devsecops/assumer](https://github.com/devsecops/assumer)
 2. The Account being snapshotted must have the Incident Responder role (This role can only be pushed by an IAM Admin) 'arn:aws:iam::010101010101:role/human/dso/TGT-dso-IncidentResponse'.
 3. Your IAM user must be able to assume-role against that role
 
